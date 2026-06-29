@@ -105,7 +105,7 @@ function SuburbPage() {
           </div>
         </section>
 
-        {/* Local context — landmarks + industries */}
+        {/* Local context  -  landmarks + industries */}
         <section className="mx-auto max-w-7xl px-6 py-12">
           <div className="grid gap-4 md:grid-cols-2">
             <div className="rounded-2xl border border-border bg-card p-7 shadow-sm">
@@ -165,7 +165,7 @@ function SuburbPage() {
             <h2 className="mt-3 text-2xl font-bold tracking-tight md:text-3xl">
               {suburb.name} businesses Whitfield Credit works with
             </h2>
-            <p className="mt-2 text-muted-foreground">Representative case studies — composite profiles drawn from real funding outcomes.</p>
+            <p className="mt-2 text-muted-foreground">Representative case studies  -  composite profiles drawn from real funding outcomes.</p>
             <ul className="mt-8 grid gap-4 md:grid-cols-3">
               {suburb.sampleBusinesses.map((b: { name: string; type: string; useCase: string }, i: number) => (
                 <li key={b.name} className="rounded-2xl border border-border bg-card p-6 shadow-sm">
@@ -262,7 +262,7 @@ function SuburbPage() {
               Fund your {suburb.name} business, fast.
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-white/65">
-              Get matched with the right program in minutes — soft credit pull, no obligation.
+              Get matched with the right program in minutes  -  soft credit pull, no obligation.
             </p>
             <div className="mt-8 flex flex-wrap justify-center gap-4">
               <Link to="/apply-now" className="btn-primary text-base px-9 py-4">

@@ -1,4 +1,4 @@
-// Single source of truth for SITE_URL and business facts.
+﻿// Single source of truth for SITE_URL and business facts.
 // Mock/placeholder values OK while INDEXABLE=false. Before flipping
 // VITE_INDEXABLE=true, replace every mock value with the real owner data.
 
@@ -17,7 +17,7 @@ export const SITE_CONFIG = {
 
   name: "Lumen Business Capital",
   legalName: "Lumen Business Capital, LLC",
-  tagline: "Coastal clarity — capital for Virginia Beach operators",
+  tagline: "Coastal clarity  -  capital for Virginia Beach operators",
   defaultDescription:
     "Working capital, invoice factoring, AR financing, SBA loans and small business loans for Virginia Beach, VA. Pre-qualify with a soft credit pull and review offers in 24 hours.",
 
@@ -87,7 +87,7 @@ export const SITE_CONFIG = {
   featuredStat: {
     value: "780,000",
     claim: "small businesses operating across Virginia",
-    sourceName: "SBA Office of Advocacy — Virginia Profile",
+    sourceName: "SBA Office of Advocacy  -  Virginia Profile",
     sourceUrl: "https://advocacy.sba.gov/",
   },
 

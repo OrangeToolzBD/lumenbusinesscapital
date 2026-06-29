@@ -126,7 +126,7 @@ function PillarPage() {
               <p key={i} className="mt-4 text-muted-foreground">{p}</p>
             ))}
             <p className="mt-4 text-muted-foreground">
-              Every Whitfield Credit application runs through Virginia-licensed lending partners —
+              Every Whitfield Credit application runs through Virginia-licensed lending partners  - 
               one soft credit pull, side-by-side offers, no fee until close.
             </p>
           </div>

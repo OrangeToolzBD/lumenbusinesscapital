@@ -117,7 +117,7 @@ function ApplyNowPage() {
               {[
                 "Soft credit pull, never affects your score",
                 "Bank-level 256-bit encryption",
-                "No obligation — compare offers freely",
+                "No obligation  -  compare offers freely",
                 "Virginia-licensed lending partners only",
               ].map((t) => (
                 <li key={t} className="flex gap-2.5">
@@ -160,7 +160,7 @@ function ApplyNowPage() {
             </a>
             <div className="mt-3 flex items-center gap-2 text-[11px] text-muted-foreground">
               <Clock className="h-3 w-3 text-[color:var(--brand-bronze)]" />
-              Mon–Fri · 8am–7pm CT
+              Mon-Fri · 8am-7pm CT
             </div>
           </div>
 

@@ -1,4 +1,4 @@
-import { createFileRoute, Link } from "@tanstack/react-router";
+﻿import { createFileRoute, Link } from "@tanstack/react-router";
 import { useEffect, useState, type ReactNode } from "react";
 import { Button } from "@/components/ui/button";
 import {
@@ -369,13 +369,13 @@ export function Header() {
   return (
     <header className="fixed inset-x-0 top-0 z-50 bg-[color:var(--brand-charcoal)]/97 text-white shadow-[0_2px_32px_-4px_oklch(0.08_0.04_240/0.55)] backdrop-blur-xl supports-[backdrop-filter]:bg-[color:var(--brand-charcoal)]/88">
       <div className="mx-auto flex h-[72px] max-w-7xl items-center gap-6 px-4 md:px-6">
-        {/* Logo — left */}
+        {/* Logo  -  left */}
         <a href="/" className="shrink-0 flex items-center">
           <img src={siteLogoUrl} alt={SITE_CONFIG.name} className="h-14 w-auto" />
           <span className="sr-only">{SITE_CONFIG.name}</span>
         </a>
 
-        {/* Nav — centered */}
+        {/* Nav  -  centered */}
         <div className="hidden flex-1 items-center justify-center lg:flex">
           <NavigationMenu>
             <NavigationMenuList className="gap-0">
@@ -401,7 +401,7 @@ export function Header() {
                       <div className="mt-5 flex items-center justify-between rounded-xl border border-border bg-[color:var(--primary)]/5 p-4">
                         <div className="text-sm">
                           <div className="font-semibold">Not sure which capital fits?</div>
-                          <div className="text-muted-foreground">Get matched in 60 seconds — soft credit pull only.</div>
+                          <div className="text-muted-foreground">Get matched in 60 seconds  -  soft credit pull only.</div>
                         </div>
                         <Link to="/apply-now" className="btn-primary py-2 px-4 text-[11px]">
 
@@ -594,7 +594,7 @@ export function Header() {
   );
 }
 
-/* ---------------- Hero — Virginia Beach full-bleed, two-column ---------------- */
+/* ---------------- Hero  -  Virginia Beach full-bleed, two-column ---------------- */
 function Hero() {
   return (
     <section className="relative min-h-screen overflow-hidden text-white flex items-center">
@@ -606,7 +606,7 @@ function Hero() {
         className="pointer-events-none absolute inset-0 h-full w-full object-cover object-[center_40%]"
         fetchPriority="high"
       />
-      {/* Deep navy overlay — left heavy so text stays legible */}
+      {/* Deep navy overlay  -  left heavy so text stays legible */}
       <div aria-hidden className="pointer-events-none absolute inset-0" style={{ background: "linear-gradient(105deg, oklch(0.13 0.06 235 / 0.96) 0%, oklch(0.15 0.06 235 / 0.88) 45%, oklch(0.12 0.04 235 / 0.65) 100%)" }} />
       {/* Subtle grid texture */}
       <div aria-hidden className="pointer-events-none absolute inset-0 anchor-grid opacity-[0.035]" />
@@ -614,7 +614,7 @@ function Hero() {
       <div className="relative mx-auto w-full max-w-7xl px-6 pt-[calc(9rem+72px)] pb-36 lg:pt-[calc(11rem+72px)] lg:pb-44">
         <div className="grid items-center gap-12 lg:grid-cols-[1.15fr_0.85fr]">
 
-          {/* Left — copy */}
+          {/* Left  -  copy */}
           <div>
             <div className="inline-flex items-center gap-2.5 rounded-full border border-white/20 bg-white/8 px-4 py-1.5 text-[11px] font-bold uppercase tracking-[0.2em] text-white/85 backdrop-blur-sm">
               <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-[color:var(--primary)]" />
@@ -627,7 +627,7 @@ function Hero() {
             </h1>
 
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-white/65">
-              One soft-pull application connects you to 75+ Virginia-active lenders — invoice factoring, AR lines, SBA loans and working capital matched to your deal.
+              One soft-pull application connects you to 75+ Virginia-active lenders  -  invoice factoring, AR lines, SBA loans and working capital matched to your deal.
             </p>
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -651,7 +651,7 @@ function Hero() {
             </div>
           </div>
 
-          {/* Right — glass stats card */}
+          {/* Right  -  glass stats card */}
           <div className="rounded-3xl border border-white/12 bg-white/8 p-7 backdrop-blur-lg">
             <div className="text-[10px] font-bold uppercase tracking-[0.2em] text-white/45 mb-5">By the numbers</div>
             <div className="grid grid-cols-2 gap-3">
@@ -680,7 +680,7 @@ function Hero() {
               ))}
             </div>
             <Link to="/apply-now" className="btn-primary mt-5 w-full justify-center text-sm py-3">
-              Apply Now — Soft Pull
+              Apply Now  -  Soft Pull
               <ArrowRight className="h-4 w-4" />
             </Link>
           </div>
@@ -691,7 +691,7 @@ function Hero() {
   );
 }
 
-/* ---------------- Stats Banner — bold horizontal strip ---------------- */
+/* ---------------- Stats Banner  -  bold horizontal strip ---------------- */
 function StatsBanner() {
   const stats = [
     { value: SITE_CONFIG.stats.businessesFunded, label: "Businesses funded", icon: Users },
@@ -723,13 +723,13 @@ function StatsBanner() {
   );
 }
 
-/* ---------------- Capital Desk — 2×2 card grid ---------------- */
+/* ---------------- Capital Desk  -  2x2 card grid ---------------- */
 function CapitalDesk() {
   const desk = [
     {
       slug: "invoice-factoring",
       title: "Invoice Factoring",
-      lede: "Same-day cash on freight, staffing or construction invoices — no debt added to your balance sheet.",
+      lede: "Same-day cash on freight, staffing or construction invoices  -  no debt added to your balance sheet.",
       stat: "Funded in 24 hrs",
       tag: "Advance up to 95%",
       icon: FileText,
@@ -740,23 +740,23 @@ function CapitalDesk() {
       title: "Small Business Loans",
       lede: "One soft-pull application matches you against every major loan product we broker.",
       stat: "75+ lenders",
-      tag: "$5K – $5M",
+      tag: "$5K - $5M",
       icon: HandCoins,
       accent: "from-amber-600/20 to-amber-600/5",
     },
     {
       slug: "accounts-receivable-financing",
       title: "AR Financing",
-      lede: "Revolving credit line secured by your open invoices — keep your receivables and your cash.",
+      lede: "Revolving credit line secured by your open invoices  -  keep your receivables and your cash.",
       stat: "Up to 90% advance",
-      tag: "Lines $250K–$20M",
+      tag: "Lines $250K-$20M",
       icon: Receipt,
       accent: "from-blue-600/20 to-blue-600/5",
     },
     {
       slug: "sba-loans",
       title: "SBA Loans",
-      lede: "SBA 7(a), 504 and Express programs through Virginia-active Preferred Lenders — lowest long-term rates.",
+      lede: "SBA 7(a), 504 and Express programs through Virginia-active Preferred Lenders  -  lowest long-term rates.",
       stat: "From 8.25% APR",
       tag: "Up to $5M",
       icon: Award,
@@ -797,7 +797,7 @@ function CapitalDesk() {
               >
                 {/* Hover gradient wash */}
                 <div aria-hidden className={`absolute inset-0 bg-gradient-to-br ${d.accent} opacity-0 transition-opacity duration-300 group-hover:opacity-100`} />
-                {/* Favicon watermark — very low opacity decoration */}
+                {/* Favicon watermark  -  very low opacity decoration */}
                 <img
                   src={siteFavUrl}
                   alt=""
@@ -834,12 +834,12 @@ function CapitalDesk() {
   );
 }
 
-/* ---------------- City Hub CTA — bold dark banner ---------------- */
+/* ---------------- City Hub CTA  -  bold dark banner ---------------- */
 function CityHubCTA() {
   const highlights = [
     "10 neighborhoods & adjacent communities",
     "24 loan programs mapped locally",
-    "60 dedicated neighborhood × program pages",
+    "60 dedicated neighborhood x program pages",
   ];
   return (
     <section className="relative overflow-hidden py-4 sm:py-6">
@@ -911,13 +911,13 @@ function CityHubCTA() {
   );
 }
 
-/* ---------------- How It Works — vertical timeline ---------------- */
+/* ---------------- How It Works  -  vertical timeline ---------------- */
 function HowItWorks() {
   const steps = [
     {
       n: 1,
       title: "Tell us the brief",
-      desc: "60 seconds: how much, what for, how soon. No documents up front — just the basics.",
+      desc: "60 seconds: how much, what for, how soon. No documents up front  -  just the basics.",
       icon: FileText,
       detail: "Funding amount · Use of funds · Timeline",
     },
@@ -931,7 +931,7 @@ function HowItWorks() {
     {
       n: 3,
       title: "Compare real offers",
-      desc: "Side-by-side: rates, terms, fees and remit schedules laid out clearly — no spin.",
+      desc: "Side-by-side: rates, terms, fees and remit schedules laid out clearly  -  no spin.",
       icon: TrendingUp,
       detail: "APR · Term length · Fees · Remit schedule",
     },
@@ -951,7 +951,7 @@ function HowItWorks() {
       <div className="relative mx-auto max-w-7xl px-6">
         <div className="grid gap-16 lg:grid-cols-[1fr_1.2fr] lg:items-start">
 
-          {/* Left — sticky header + CTA */}
+          {/* Left  -  sticky header + CTA */}
           <div className="lg:sticky lg:top-28">
             <div className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/8 px-3 py-1 text-[11px] font-bold uppercase tracking-[0.18em] text-white/70">
               Process
@@ -960,12 +960,12 @@ function HowItWorks() {
               Four steps.<br />Zero surprises.
             </h2>
             <p className="mt-4 max-w-sm text-white/55 leading-relaxed">
-              How {CITY} operators move from "we need capital" to "the wire cleared" — without the runaround.
+              How {CITY} operators move from "we need capital" to "the wire cleared"  -  without the runaround.
             </p>
 
             <div className="mt-10 space-y-4">
               {[
-                { icon: Lock, text: "Soft pull only — no credit impact" },
+                { icon: Lock, text: "Soft pull only  -  no credit impact" },
                 { icon: ShieldCheck, text: "Virginia-licensed lending partners" },
                 { icon: Clock, text: "Decisions in as little as 24 hours" },
               ].map(({ icon: Icon, text }) => (
@@ -987,7 +987,7 @@ function HowItWorks() {
             </div>
           </div>
 
-          {/* Right — vertical timeline */}
+          {/* Right  -  vertical timeline */}
           <div className="relative">
             {/* Connector line */}
             <div aria-hidden className="absolute left-6 top-6 bottom-6 w-px bg-gradient-to-b from-white/20 via-white/10 to-transparent" />
@@ -1032,7 +1032,7 @@ function HowItWorks() {
   );
 }
 
-/* ---------------- Industries — image-backed sector cards ---------------- */
+/* ---------------- Industries  -  image-backed sector cards ---------------- */
 function Industries() {
   const inds = [
     {
@@ -1098,7 +1098,7 @@ function Industries() {
               Industries we underwrite first
             </h2>
             <p className="mt-3 text-muted-foreground">
-              Virginia Beach–specific verticals with lenders who understand your sector — not generalists guessing at your margins.
+              Virginia Beach-specific verticals with lenders who understand your sector  -  not generalists guessing at your margins.
             </p>
           </div>
           <Link to="/virginia-beach" className="btn-outline-light shrink-0">
@@ -1152,7 +1152,7 @@ function Industries() {
   );
 }
 
-/* ---------------- Success Stories — dark bg carousel ---------------- */
+/* ---------------- Success Stories  -  dark bg carousel ---------------- */
 function SuccessStories() {
   const [api, setApi] = useState<CarouselApi | null>(null);
   useEffect(() => {
@@ -1386,7 +1386,7 @@ function CityIntro() {
   );
 }
 
-/* ---------------- Security — horizontal trust strip ---------------- */
+/* ---------------- Security  -  horizontal trust strip ---------------- */
 function Security() {
   const items = [
     { icon: Lock, title: "SSL Secured", desc: "256-bit encryption" },
@@ -1418,7 +1418,7 @@ function Security() {
   );
 }
 
-/* ---------------- FAQ — two-column layout ---------------- */
+/* ---------------- FAQ  -  two-column layout ---------------- */
 function FAQSection() {
   return (
     <section id="faq" className="relative overflow-hidden py-20 sm:py-28">
@@ -1442,14 +1442,14 @@ function FAQSection() {
             <div className="mt-8">
               <Link to="/apply-now" className="btn-primary w-full justify-center sm:w-auto text-base px-7 py-3.5">
 
-                Apply Now — Soft Pull
+                Apply Now  -  Soft Pull
                 <ArrowRight className="h-4 w-4" />
               </Link>
               <p className="mt-3 text-xs text-muted-foreground">No commitment required. Free consultation.</p>
             </div>
           </div>
 
-          {/* Right — accordion */}
+          {/* Right  -  accordion */}
           <Accordion type="single" collapsible className="w-full space-y-3">
             {HOME_FAQS.map((f, i) => (
               <AccordionItem
@@ -1472,7 +1472,7 @@ function FAQSection() {
   );
 }
 
-/* ---------------- Final CTA — dramatic dark banner ---------------- */
+/* ---------------- Final CTA  -  dramatic dark banner ---------------- */
 function FinalCTA() {
   return (
     <section
@@ -1605,7 +1605,7 @@ export function Footer() {
       <div className="border-t border-white/8">
         <div className="mx-auto max-w-7xl px-6 py-5 text-xs text-white/35">
           <div className="flex flex-col items-start justify-between gap-2 sm:flex-row sm:items-center">
-            <p>© {new Date().getFullYear()} {SITE_CONFIG.name} · {CITY_STATE}. All rights reserved.</p>
+            <p>(c) {new Date().getFullYear()} {SITE_CONFIG.name} · {CITY_STATE}. All rights reserved.</p>
             <p>
               Reviewed by{" "}
               <a href={SITE_CONFIG.author.profileUrl} rel="author" className="text-white/50 hover:text-white/80 transition-colors">

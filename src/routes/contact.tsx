@@ -52,7 +52,7 @@ function ContactPage() {
             <span className="text-[color:var(--brand-bronze)]">No scripts, no pressure.</span>
           </h1>
           <p className="mx-auto mt-5 max-w-2xl text-lg text-white/65">
-            Questions, custom scenarios or ready to apply? Our funding desk is standing by — typically back within the hour during business days.
+            Questions, custom scenarios or ready to apply? Our funding desk is standing by  -  typically back within the hour during business days.
           </p>
           <div className="mt-7 flex flex-wrap items-center justify-center gap-5 text-xs font-semibold uppercase tracking-[0.14em] text-white/50">
             <span className="inline-flex items-center gap-1.5"><ShieldCheck className="h-3.5 w-3.5 text-[color:var(--brand-bronze)]" /> 100% Confidential</span>
@@ -70,7 +70,7 @@ function ContactPage() {
               icon: Phone,
               title: "Call the desk",
               value: SITE_CONFIG.phone,
-              sub: "Mon–Fri · 8am–7pm CT · Sat 9am–2pm",
+              sub: "Mon-Fri · 8am-7pm CT · Sat 9am-2pm",
               href: SITE_CONFIG.phoneHref,
             },
             {
@@ -144,8 +144,8 @@ function ContactPage() {
             </div>
             <ul className="mt-4 space-y-2.5 text-sm">
               {[
-                { day: "Mon–Fri", hours: "8am–7pm CT" },
-                { day: "Saturday", hours: "9am–2pm CT" },
+                { day: "Mon-Fri", hours: "8am-7pm CT" },
+                { day: "Saturday", hours: "9am-2pm CT" },
                 { day: "Sunday", hours: "Closed" },
               ].map((r) => (
                 <li key={r.day} className="flex justify-between border-b border-border/60 pb-2 last:border-0 last:pb-0">

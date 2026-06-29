@@ -48,7 +48,7 @@ function VirginiaBeachHub() {
               <span className="text-[color:var(--brand-bronze)]">Every neighborhood.</span>
             </h1>
             <p className="mx-auto mt-5 max-w-2xl text-lg text-white/65">
-              The complete Lumen Business Capital directory for Virginia Beach, VA — every loan program we broker, mapped to every neighborhood and adjacent community we serve.
+              The complete Lumen Business Capital directory for Virginia Beach, VA  -  every loan program we broker, mapped to every neighborhood and adjacent community we serve.
             </p>
             <div className="mt-8 flex flex-wrap items-center justify-center gap-4">
               <Link to="/apply-now" className="btn-primary text-base px-8 py-3.5">
@@ -118,18 +118,18 @@ function VirginiaBeachHub() {
 
         {/* Money pillars */}
         <PillarGrid
-          title="Money pillars — general business financing"
+          title="Money pillars  -  general business financing"
           subtitle="The 14 core funding programs Whitfield Credit brokers for Virginia Beach businesses, with the six active GBP plays first."
           icon={Banknote}
           pillars={MONEY_PILLARS}
         />
 
-        {/* Suburb × Services matrix */}
+        {/* Suburb x Services matrix */}
         <SuburbServicesMatrix />
 
         {/* Vertical pillars */}
         <PillarGrid
-          title="Vertical pillars — industry-specific funding"
+          title="Vertical pillars  -  industry-specific funding"
           subtitle="10 industry-specialized lending programs for Coastal Virginia operators."
           icon={Briefcase}
           pillars={VERTICAL_PILLARS}
@@ -205,7 +205,7 @@ function SuburbServicesMatrix() {
           </div>
           <div>
             <div className="text-[11px] font-bold uppercase tracking-[0.18em] text-[color:var(--brand-bronze)]">
-              Matrix · Neighborhood × Program
+              Matrix · Neighborhood x Program
             </div>
             <h2 className="mt-1 text-2xl font-bold tracking-tight md:text-3xl">Services by neighborhood</h2>
             <p className="mt-1 max-w-2xl text-muted-foreground">
@@ -256,7 +256,7 @@ function SuburbServicesMatrix() {
                   params={{ suburb: s.slug }}
                   className="text-[color:var(--brand-bronze)] transition-colors hover:underline"
                 >
-                  View hub →
+                  View hub ->
                 </Link>
               </div>
             </div>

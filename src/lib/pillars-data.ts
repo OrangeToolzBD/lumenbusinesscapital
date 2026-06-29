@@ -1,4 +1,4 @@
-// Whitfield Credit — SEO pillar pages for Columbus, OH.
+﻿// Whitfield Credit  -  SEO pillar pages for Columbus, OH.
 // 14 Money Pillars + 10 Vertical Pillars = 24 total.
 // The first 6 Money pillars mirror the active Google Business Profile plays.
 
@@ -78,7 +78,7 @@ export const MONEY_PILLARS: Pillar[] = [
     kind: "money",
     tagline: "Government-backed funding for Columbus businesses",
     description:
-      "SBA 7(a), 504 and Express loans for Central Ohio owners — the longest terms and lowest rates in commercial lending, accessed through a network of SBA Preferred banks active in the Columbus market.",
+      "SBA 7(a), 504 and Express loans for Central Ohio owners  -  the longest terms and lowest rates in commercial lending, accessed through a network of SBA Preferred banks active in the Columbus market.",
     bullets: ["Up to $5,000,000", "25-year amortization on real estate", "10% down on acquisitions"],
     highlight: "From 8.25% APR",
     volume: 165000,
@@ -99,7 +99,7 @@ export const MONEY_PILLARS: Pillar[] = [
     kind: "money",
     tagline: "Revolving credit, draw only what you need",
     description:
-      "Keep capital ready for inventory swings, payroll or opportunity buys. Pay interest only on the balance you draw — and reuse the limit as you repay.",
+      "Keep capital ready for inventory swings, payroll or opportunity buys. Pay interest only on the balance you draw  -  and reuse the limit as you repay.",
     bullets: ["Lines from $25K-$500K", "Same-day draws", "Soft pre-qualification"],
     highlight: "From 9.75% APR",
   },
@@ -119,7 +119,7 @@ export const MONEY_PILLARS: Pillar[] = [
     kind: "money",
     tagline: "Finance machinery, vehicles and tools",
     description:
-      "Use the equipment itself as collateral — preserving working capital for the things financing can't buy. Section 179 deductions still apply.",
+      "Use the equipment itself as collateral  -  preserving working capital for the things financing can't buy. Section 179 deductions still apply.",
     bullets: ["100% financing available", "Section 179 eligible", "Approvals in 24-48 hrs"],
     highlight: "From 6.75%",
   },
@@ -139,7 +139,7 @@ export const MONEY_PILLARS: Pillar[] = [
     kind: "money",
     tagline: "Buy an existing Columbus business",
     description:
-      "SBA-backed acquisition financing for partner buyouts, succession purchases and add-on deals across the I-270 corridor — including goodwill, working capital and earn-out structures.",
+      "SBA-backed acquisition financing for partner buyouts, succession purchases and add-on deals across the I-270 corridor  -  including goodwill, working capital and earn-out structures.",
     bullets: ["10% down with SBA 7(a)", "Goodwill financing", "Earn-out friendly"],
     highlight: "Up to $5M",
   },
@@ -159,7 +159,7 @@ export const MONEY_PILLARS: Pillar[] = [
     kind: "money",
     tagline: "No blanket UCC, no hard collateral",
     description:
-      "Cash-flow underwritten loans for established Columbus businesses with consistent monthly revenue — no UCC blanket lien required.",
+      "Cash-flow underwritten loans for established Columbus businesses with consistent monthly revenue  -  no UCC blanket lien required.",
     bullets: ["Up to $500K", "Terms 1-5 years", "Funded in 1-3 days"],
     highlight: "Soft pull pre-qual",
   },
@@ -182,7 +182,7 @@ export const VERTICAL_PILLARS: Pillar[] = [
     kind: "vertical",
     tagline: "Fit-out, expansion and equipment",
     description:
-      "Open a second location, refresh the dining room or weather a slow season with capital sized to Columbus hospitality cash flow — Short North, German Village and beyond.",
+      "Open a second location, refresh the dining room or weather a slow season with capital sized to Columbus hospitality cash flow  -  Short North, German Village and beyond.",
     bullets: ["Daily, weekly or monthly payments", "Same-day approvals", "No equity required"],
     highlight: "$25K-$2M",
   },
@@ -222,7 +222,7 @@ export const VERTICAL_PILLARS: Pillar[] = [
     kind: "vertical",
     tagline: "Production lines, tooling and industrial equipment",
     description:
-      "Equipment, working capital and AR factoring for manufacturers and industrial operators in the Columbus metro — sized to production cycles and OEM payment terms.",
+      "Equipment, working capital and AR factoring for manufacturers and industrial operators in the Columbus metro  -  sized to production cycles and OEM payment terms.",
     bullets: ["AR factoring for slow-pay contracts", "Equipment & rolling stock", "Bridge through slow quarters"],
     highlight: "Up to $5M",
   },
@@ -252,7 +252,7 @@ export const VERTICAL_PILLARS: Pillar[] = [
     kind: "vertical",
     tagline: "SBA Express for veteran owners",
     description:
-      "Expedited SBA Express financing with reduced fees for veteran-owned businesses — a meaningful program in a city anchored by Rickenbacker Air National Guard Base and a strong veteran owner-operator community.",
+      "Expedited SBA Express financing with reduced fees for veteran-owned businesses  -  a meaningful program in a city anchored by Rickenbacker Air National Guard Base and a strong veteran owner-operator community.",
     bullets: ["Up to $500K", "Reduced SBA fees for veterans", "36-hour SBA turnaround"],
     highlight: "Veteran-friendly",
   },
@@ -262,7 +262,7 @@ export const VERTICAL_PILLARS: Pillar[] = [
     kind: "vertical",
     tagline: "CNC, robotics and production lines",
     description:
-      "Finance individual machines or full production cells with structures aligned to ROI timelines — including soft costs and step-payment options for Columbus and Central Ohio manufacturers.",
+      "Finance individual machines or full production cells with structures aligned to ROI timelines  -  including soft costs and step-payment options for Columbus and Central Ohio manufacturers.",
     bullets: ["New & used equipment", "Soft costs included", "Step payment options"],
     highlight: "Up to $10M",
   },
@@ -270,8 +270,8 @@ export const VERTICAL_PILLARS: Pillar[] = [
 
 export const PILLARS: Pillar[] = [...MONEY_PILLARS, ...VERTICAL_PILLARS];
 
-/** Top 6 money pillars used to build the suburb × pillar SEO pages.
- *  10 suburbs × 6 = 60 locally written pages. */
+/** Top 6 money pillars used to build the suburb x pillar SEO pages.
+ *  10 suburbs x 6 = 60 locally written pages. */
 export const TOP_MONEY_PILLARS: Pillar[] = MONEY_PILLARS.slice(0, 6);
 
 export function getPillar(slug: string): Pillar | undefined {
