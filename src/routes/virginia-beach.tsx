@@ -256,7 +256,7 @@ function SuburbServicesMatrix() {
                   params={{ suburb: s.slug }}
                   className="text-[color:var(--brand-bronze)] transition-colors hover:underline"
                 >
-                  View hub ->
+                  View hub <ArrowRight className="inline h-3.5 w-3.5" />
                 </Link>
               </div>
             </div>
