@@ -371,7 +371,7 @@ export function Header() {
       <div className="mx-auto flex h-[72px] max-w-7xl items-center gap-6 px-4 md:px-6">
         {/* Logo  -  left */}
         <a href="/" className="shrink-0 flex items-center">
-          <img src={siteLogoUrl} alt={SITE_CONFIG.name} className="h-14 w-auto" />
+          <img src={siteLogoUrl} width={843} height={296} alt={SITE_CONFIG.name} className="h-14 w-auto" />
           <span className="sr-only">{SITE_CONFIG.name}</span>
         </a>
 
@@ -503,7 +503,7 @@ export function Header() {
             <SheetContent side="right" className="w-[320px] overflow-y-auto p-0">
               <SheetHeader className="border-b border-border px-5 py-4">
                 <SheetTitle className="flex items-center gap-2 text-left">
-                  <img src={siteLogoUrl} alt={SITE_CONFIG.name} className="h-10 w-auto" />
+                  <img src={siteLogoUrl} width={843} height={296} alt={SITE_CONFIG.name} className="h-10 w-auto" />
                 </SheetTitle>
               </SheetHeader>
               <div className="px-4 py-4">
@@ -1549,7 +1549,7 @@ export function Footer() {
         <div className="grid gap-10 md:grid-cols-[1.4fr_1fr_1fr_1fr]">
           {/* Brand col */}
           <div>
-            <img src={siteLogoUrl} alt={SITE_CONFIG.name} className="h-20 w-auto" />
+            <img src={siteLogoUrl} width={843} height={296} alt={SITE_CONFIG.name} className="h-20 w-auto" />
             <address className="mt-5 not-italic space-y-1.5 text-sm text-white/45">
               {SITE_CONFIG.hasPublicOffice ? (
                 <div>
