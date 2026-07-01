@@ -600,7 +600,7 @@ function Hero() {
     <section className="relative min-h-screen overflow-hidden text-white flex items-center">
       {/* Virginia Beach oceanfront aerial */}
       <img
-        src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?auto=format&fit=crop&w=1920&q=80"
+        src="https://r2.connectsocial.app/387/ws-images/photo-1559827260-dc66d52bef19-9d0ba0.jpg"
         alt="Virginia Beach oceanfront"
         aria-hidden
         className="pointer-events-none absolute inset-0 h-full w-full object-cover object-[center_40%]"
@@ -1040,49 +1040,49 @@ function Industries() {
       label: "Healthcare",
       slug: "healthcare",
       blurb: "Sentara, CHKD & Bon Secours groups.",
-      img: "https://images.unsplash.com/photo-1551601651-2a8555f1a136?auto=format&fit=crop&w=600&q=75",
+      img: "https://r2.connectsocial.app/387/ws-images/photo-1551601651-2a8555f1a136-40447e.jpg",
     },
     {
       icon: UtensilsCrossed,
       label: "Hospitality",
       slug: "hospitality",
       blurb: "Oceanfront dining & resort operators.",
-      img: "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=600&q=75",
+      img: "https://r2.connectsocial.app/387/ws-images/photo-1414235077428-338989a2e8c0-ce5258.jpg",
     },
     {
       icon: Building2,
       label: "Construction",
       slug: "construction",
       blurb: "GCs, trade contractors & ground-up builds.",
-      img: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=600&q=75",
+      img: "https://r2.connectsocial.app/387/ws-images/photo-1504307651254-35680f356dfd-cd5bc3.jpg",
     },
     {
       icon: Truck,
       label: "Transportation",
       slug: "transportation",
       blurb: "Coastal freight, logistics & owner-operators.",
-      img: "https://images.unsplash.com/photo-1601584115197-04ecc0da31d7?auto=format&fit=crop&w=600&q=75",
+      img: "https://r2.connectsocial.app/387/ws-images/photo-1601584115197-04ecc0da31d7-32b026.jpg",
     },
     {
       icon: Briefcase,
       label: "Professional Services",
       slug: "professional-services",
       blurb: "Law, accounting & consulting firms.",
-      img: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=600&q=75",
+      img: "https://r2.connectsocial.app/387/ws-images/photo-1507679799987-c73779587ccf-791c48.jpg",
     },
     {
       icon: ShoppingBag,
       label: "Retail",
       slug: "retail",
       blurb: "Storefronts, e-commerce & inventory.",
-      img: "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=600&q=75",
+      img: "https://r2.connectsocial.app/387/ws-images/photo-1441986300917-64674bd600d8-e20bee.jpg",
     },
     {
       icon: Factory,
       label: "Manufacturing",
       slug: "manufacturing",
       blurb: "Production lines & industrial equipment.",
-      img: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=600&q=75",
+      img: "https://r2.connectsocial.app/387/ws-images/photo-1581091226825-a6a2a5aee158-ef553b.jpg",
     },
   ];
 
@@ -1186,7 +1186,7 @@ function SuccessStories() {
       type: "Invoice Factoring",
       person: "Marco Delgado",
       role: "Owner & Operator",
-      photo: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=96&h=96&fit=crop&crop=face&q=80",
+      photo: "https://r2.connectsocial.app/387/ws-images/photo-1507003211169-0a1dd7228f2d-322253.jpg",
     },
     {
       name: "Easton Corridor Distribution",
@@ -1195,7 +1195,7 @@ function SuccessStories() {
       type: "Accounts Receivable Financing",
       person: "Renee Calderon",
       role: "CFO",
-      photo: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=96&h=96&fit=crop&crop=face&q=80",
+      photo: "https://r2.connectsocial.app/387/ws-images/photo-1573496359142-b8d87734a5a2-0eb7ba.jpg",
     },
     {
       name: "Dublin Dental Partners",
@@ -1204,7 +1204,7 @@ function SuccessStories() {
       type: "SBA 7(a) Loan",
       person: "Dr. Priya Anand",
       role: "Managing Partner",
-      photo: "https://images.unsplash.com/photo-1594824476967-48c8b964273f?w=96&h=96&fit=crop&crop=face&q=80",
+      photo: "https://r2.connectsocial.app/387/ws-images/photo-1594824476967-48c8b964273f-edd0e1.jpg",
     },
     {
       name: "German Village Kitchen Co.",
@@ -1213,7 +1213,7 @@ function SuccessStories() {
       type: "Working Capital Loan",
       person: "Tomás Reyes",
       role: "Executive Chef & Co-Founder",
-      photo: "https://images.unsplash.com/photo-1531384441138-2736e62e0919?w=96&h=96&fit=crop&crop=face&q=80",
+      photo: "https://r2.connectsocial.app/387/ws-images/photo-1531384441138-2736e62e0919-d5b3a2.jpg",
     },
     {
       name: "Grandview Heights HVAC",
@@ -1222,7 +1222,7 @@ function SuccessStories() {
       type: "Equipment Financing",
       person: "Jordan Whitfield",
       role: "President",
-      photo: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=96&h=96&fit=crop&crop=face&q=80",
+      photo: "https://r2.connectsocial.app/387/ws-images/photo-1560250097-0b93528c311a-65da7e.jpg",
     },
     {
       name: "Short North Hospitality Group",
@@ -1231,7 +1231,7 @@ function SuccessStories() {
       type: "Business Term Loan",
       person: "Camila Vargas",
       role: "Founder",
-      photo: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=96&h=96&fit=crop&crop=face&q=80",
+      photo: "https://r2.connectsocial.app/387/ws-images/photo-1580489944761-15a19d654956-2fe459.jpg",
     },
   ];
 
